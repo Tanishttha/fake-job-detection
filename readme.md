@@ -117,6 +117,7 @@ https://fake-jobdetect.vercel.app
 Project Samples PDF:
 
 ```bash
+https://drive.google.com/drive/folders/1WAdBopz1THfS4_hh9l0eImHjDv2hNl8j
 ```
 <h3>Screenshots</h3>
 Home Page
