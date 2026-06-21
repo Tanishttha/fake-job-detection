@@ -1,5 +1,3 @@
-
-/* Reset and Base Styles */
 * {
   margin: 0;
   padding: 0;
@@ -242,7 +240,6 @@ section {
   padding: 1.5rem;
 }
 
-/* Tabs */
 .tabs {
   width: 100%;
 }
@@ -286,7 +283,6 @@ section {
   display: block;
 }
 
-/* Form Elements */
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -329,7 +325,6 @@ section {
   flex-shrink: 0;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 0.75rem 1.5rem;
@@ -356,8 +351,6 @@ section {
   font-size: 1.125rem;
   padding: 0.875rem 1.5rem;
 }
-
-/* Analysis Indicator */
 .analyzing-indicator {
   display: none;
   text-align: center;
@@ -376,8 +369,6 @@ section {
   40% {transform: translateY(-20px);} 
   60% {transform: translateY(-10px);} 
 }
-
-/* Result Section */
 .result-section {
   margin-top: 1.5rem;
 }
@@ -418,7 +409,6 @@ section {
   padding-left: 1.5rem;
 }
 
-/* Example Cards Section */
 .examples-section {
   margin-top: 3rem;
 }
@@ -510,8 +500,6 @@ section {
 .flags-list {
   padding-left: 1.5rem;
 }
-
-/* Red Flags Section */
 .red-flags-section {
   margin-top: 3rem;
   padding: 3rem 1rem;
@@ -573,8 +561,6 @@ section {
 .flag-description {
   color: var(--gray-600);
 }
-
-/* Statistics Section */
 .statistics-section {
   margin-top: 3rem;
 }
@@ -645,7 +631,6 @@ section {
   color: var(--gray-600);
 }
 
-/* Testimonials Section */
 .testimonials-section {
   margin-top: 3rem;
 }
@@ -731,7 +716,6 @@ section {
   border-color: var(--primary);
 }
 
-/* FAQ Section */
 .faq-section {
   margin-top: 3rem;
   padding-bottom: 5rem;
@@ -795,7 +779,6 @@ section {
   border-top: 1px solid var(--gray-200);
 }
 
-/* Footer */
 .footer {
   background: var(--gray-900);
   color: white;
@@ -874,7 +857,6 @@ section {
   font-size: 0.875rem;
 }
 
-/* Media Queries - Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2rem;
