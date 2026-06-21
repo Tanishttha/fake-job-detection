@@ -37,6 +37,7 @@ The Fake Job Detection System addresses this problem by applying machine learnin
 
 * Vercel
 
+![System Architecture](assets/2.png)
 <h2>Working Methodology</h2>
 <h2>Step 1: User Input</h3>
 The user enters a job description into the application interface.
@@ -54,35 +55,7 @@ A threshold value is applied:
 <h3>Step 6: Result Display</h3>
 The prediction result along with a confidence score is displayed to the user.
 
-⸻
-
-Project Structure
-
-fake-job-detection/
-│
-├── app.py
-├── train_model.py
-├── requirements.txt
-├── fake_job_postings.csv
-│
-├── model/
-│   ├── model.pkl
-│   └── vectorizer.pkl
-│
-├── templates/
-│   └── index.html
-│
-├── static/
-│   ├── src/
-│   ├── public/
-│   ├── package.json
-│   ├── package-lock.json
-│   └── ...
-│
-└── README.md
-
-⸻
-
+![Project Structure](assets/2.png)
 Machine Learning Pipeline
 
 Dataset
