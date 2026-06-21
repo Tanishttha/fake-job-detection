@@ -118,10 +118,7 @@ Project Samples PDF:
 
 ```bash
 ```
-
-
-Screenshots
-
+<h3>Screenshots</h3>
 Home Page
 
 [Insert Screenshot Here]
@@ -134,24 +131,32 @@ Prediction Result
 
 [Insert Screenshot Here]
 
-⸻
+<h2>Example</h2>
+<h3>Input</h3>
 
-Example
+```bash
+Hey everyone 
+We have an openings in our company. Here's some details :- 
+ Job Profile:- Telecaller
+                           Team Leader
+                           Assistant Manager 
+                           Tracer 
+ Process:- Banking & NBFC & Telecom
+ Department:- Collection /Recovery portfolio - SBI RECOVERY 
+FRESHER VACANCY AVAILABLE 
+ Salary:- upto 30K+Good Incentive
+ Location: Uttam Nagar  West                  
+ DRA/NON DRA
+ 
+Regards
+*HR -Kanishka 
+*Contact - 8448568436
+```
+<h3>Output</h3>
 
-Input
-
-We are hiring remote data entry operators.
-No experience required.
-Earn ₹50,000 per week.
-Registration fee required before joining.
-
-Output
-
-Fake Job Posting
-
-⸻
-
-Future Enhancements
+```bash
+```
+<h2>Future Enhancements</h2>
 
 * Company authenticity verification
 * URL-based job analysis
@@ -159,18 +164,5 @@ Future Enhancements
 * Improved NLP models
 * User feedback system
 * Advanced fraud detection techniques
-
-⸻
-
-Author
-
-Tushar Banga
-
-B.Tech Computer Engineering
-J.C. Bose University of Science & Technology, YMCA
-
-⸻
-
-License
-
+<h2>License</h2>
 This project is intended for academic, educational, and research purposes.
