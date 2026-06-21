@@ -37,7 +37,7 @@ The Fake Job Detection System addresses this problem by applying machine learnin
 
 * Vercel
 
-![System Architecture](assets/2.png)
+![System Architecture](assets/1.png)
 <h2>Working Methodology</h2>
 <h2>Step 1: User Input</h3>
 The user enters a job description into the application interface.
