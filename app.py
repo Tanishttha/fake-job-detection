@@ -16,7 +16,7 @@ vectorizer = joblib.load(VECTORIZER_PATH)
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    prediction = Nonex
+    prediction = None
     job_text = ""
     if request.method == "POST":
         job_text = request.form.get("job_text", "")
