@@ -5,10 +5,7 @@
 The rise of online recruitment platforms has made job searching easier than ever. However, it has also increased the number of fraudulent job postings that mislead candidates through fake offers, unrealistic salaries, registration fees, or misleading company information.
 <br>
 The Fake Job Detection System addresses this problem by applying machine learning techniques to analyze job descriptions and classify them as either genuine or fraudulent. The application provides instant predictions along with confidence scores, enabling users to make informed decisions.
-
-⸻
-
-Features
+<h2>Features</h2>
 
 * Machine Learning-based fake job detection
 * Real-time job description analysis
@@ -19,31 +16,24 @@ Features
 * Fast prediction results
 * Flask-based backend processing
 * Deployed web application for easy accessibility
-
-⸻
-
-Tech Stack
-
-Frontend
+<h2>Tech Stack</h2>
+<h3>Frontend</h3>
 
 * HTML
 * CSS
 * JavaScript
 * React (Vite)
-
-Backend
+<h3>Backend</h3>
 
 * Python
 * Flask
-
-Machine Learning
+<h3>Machine Learning</h3>
 
 * Scikit-learn
 * TF-IDF Vectorizer
 * Logistic Regression
 * Joblib
-
-Deployment
+<h3>Deployment</h3>
 
 * Vercel
 
