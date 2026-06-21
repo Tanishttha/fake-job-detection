@@ -121,8 +121,10 @@ https://drive.google.com/drive/folders/1WAdBopz1THfS4_hh9l0eImHjDv2hNl8j
 ```
 <h3>Screenshots</h3>
 Home Page
+
 ![Home Page](assets/3.png)
 Prediction Result
+
 ![Prediction Result](assets/4.png)
 <h2>Example</h2>
 <h3>Input</h3>
