@@ -122,10 +122,14 @@ https://drive.google.com/drive/folders/1WAdBopz1THfS4_hh9l0eImHjDv2hNl8j
 <h3>Screenshots</h3>
 
 ![Home Page](assets/3.png)
-<align="center>Home Page</>
+<p align="center">
+  <b>Home Page</b>
+</p>
 
 ![Prediction Result](assets/4.png)
-<align="center>Prediction Result</>
+<p align="center">
+  <b>Prediction Result</b>
+</p>
 <h2>Example</h2>
 <h3>Input</h3>
 
