@@ -37,73 +37,21 @@ The Fake Job Detection System addresses this problem by applying machine learnin
 
 * Vercel
 
-⸻
-
-System Architecture
-
-                        ┌─────────────────┐
-                        │      User       │
-                        └────────┬────────┘
-                                 │
-                                 ▼
-                    ┌──────────────────────┐
-                    │   Web Interface      │
-                    │ (HTML/CSS/JS/React)  │
-                    └────────┬─────────────┘
-                             │
-                             ▼
-                    ┌──────────────────────┐
-                    │    Flask Backend     │
-                    │      (app.py)        │
-                    └────────┬─────────────┘
-                             │
-                             ▼
-                    ┌──────────────────────┐
-                    │ TF-IDF Vectorizer    │
-                    │   (vectorizer.pkl)   │
-                    └────────┬─────────────┘
-                             │
-                             ▼
-                    ┌──────────────────────┐
-                    │ Logistic Regression  │
-                    │     (model.pkl)      │
-                    └────────┬─────────────┘
-                             │
-                             ▼
-                    ┌──────────────────────┐
-                    │ Prediction Result    │
-                    │ Fake / Genuine Job   │
-                    └──────────────────────┘
-
-⸻
-
-Working Methodology
-
-Step 1: User Input
-
+<h2>Working Methodology</h2>
+<h2>Step 1: User Input</h3>
 The user enters a job description into the application interface.
-
-Step 2: Text Processing
-
+<h3>Step 2: Text Processing</h3>
 The submitted text is processed using a trained TF-IDF Vectorizer, which converts textual information into numerical features.
-
-Step 3: Feature Extraction
-
+<h3>Step 3: Feature Extraction</h3>
 Relevant patterns and word frequencies are extracted from the job description.
-
-Step 4: Model Prediction
-
+<h3>Step 4: Model Prediction</h3>
 The Logistic Regression model analyzes the extracted features and predicts the probability of the posting being fraudulent.
-
-Step 5: Classification
-
+<h3>Step 5: Classification</h3>
 A threshold value is applied:
 
 * Probability > 0.40 → Fake Job Posting
 * Probability ≤ 0.40 → Genuine Job Posting
-
-Step 6: Result Display
-
+<h3>Step 6: Result Display</h3>
 The prediction result along with a confidence score is displayed to the user.
 
 ⸻
