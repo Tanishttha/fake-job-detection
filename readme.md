@@ -56,35 +56,21 @@ A threshold value is applied:
 The prediction result along with a confidence score is displayed to the user.
 
 ![Project Structure](assets/2.png)
-Machine Learning Pipeline
-
-Dataset
-
+<h2>Machine Learning Pipeline</h2>
+<h3>Dataset</h3>
 The model is trained on a dataset containing both legitimate and fraudulent job postings.
-
-Text Vectorization
-
+<h3>Text Vectorization</h3>
 TF-IDF (Term Frequency – Inverse Document Frequency) is used to convert textual job descriptions into numerical feature vectors.
-
-Model Training
-
+<h3>Model Training</h3>
 A Logistic Regression classifier is trained on the processed dataset.
-
-Model Storage
-
+<h3>Model Storage</h3>
 The trained model and vectorizer are saved using Joblib:
 
 * model.pkl
 * vectorizer.pkl
-
-Prediction
-
+<h3>Prediction</h3>
 User input is transformed using the saved vectorizer and evaluated by the trained model to generate predictions.
-
-⸻
-
-Installation and Setup
-
+<h2>Installation and Setup</h2>
 Clone Repository
 
 git clone https://github.com/Tanishttha/fake-job-detection.git
