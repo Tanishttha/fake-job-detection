@@ -71,52 +71,54 @@ The trained model and vectorizer are saved using Joblib:
 <h3>Prediction</h3>
 User input is transformed using the saved vectorizer and evaluated by the trained model to generate predictions.
 <h2>Installation and Setup</h2>
-Clone Repository
+<h3>Clone Repository</h3>
 
+```bash
 git clone https://github.com/Tanishttha/fake-job-detection.git
 cd fake-job-detection
+```
+<h3>Create Virtual Environment</h3>
 
-Create Virtual Environment
-
+```bash
 python -m venv .venv
-
-Activate Virtual Environment
-
+```
+<h3>Activate Virtual Environment</h3>
 macOS/Linux
 
+```bash
 source .venv/bin/activate
-
+```
 Windows
 
+```bash
 .venv\Scripts\activate
+```
+<h3>Install Dependencies</h3>
 
-Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
+<h3>Run Application</h3>
 
-Run Application
-
+```bash
 python app.py
-
+```
 Application will run on:
 
+```bash
 http://127.0.0.1:5000
+```
+<h2>Live Demo</h2>
 
-⸻
-
-Live Demo
-
-Website:
+```bash
 https://fake-jobdetect.vercel.app
-
-⸻
-
-Project Samples
-
+```
+<h2>Project Samples</h2>
 Project Samples PDF:
-[Insert PDF Link Here]
 
-⸻
+```bash
+```
+
 
 Screenshots
 
