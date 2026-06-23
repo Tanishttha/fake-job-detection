@@ -1,13 +1,11 @@
-# Ignore images from language stats
+# Images
 *.png linguist-vendored
 *.jpg linguist-vendored
 *.jpeg linguist-vendored
 *.svg linguist-vendored
-*.gif linguist-vendored
 
-# Ignore generated/model files
+# Model files
 *.pkl linguist-vendored
-*.joblib linguist-vendored
 
-# Ignore dataset
+# Dataset
 *.csv linguist-vendored
