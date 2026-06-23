@@ -1,3 +1,13 @@
-templates/** linguist-vendored
-static/** linguist-vendored
-assets/** linguist-vendored
+# Ignore images from language stats
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.svg linguist-vendored
+*.gif linguist-vendored
+
+# Ignore generated/model files
+*.pkl linguist-vendored
+*.joblib linguist-vendored
+
+# Ignore dataset
+*.csv linguist-vendored
