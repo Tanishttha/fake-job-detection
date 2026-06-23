@@ -1,11 +1,6 @@
-# Images
-*.png linguist-vendored
-*.jpg linguist-vendored
-*.jpeg linguist-vendored
-*.svg linguist-vendored
+# Ignore frontend from language stats
+src/** linguist-vendored
+public/** linguist-vendored
 
-# Model files
-*.pkl linguist-vendored
-
-# Dataset
-*.csv linguist-vendored
+# Count Python normally
+*.py linguist-detectable=true
