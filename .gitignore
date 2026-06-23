@@ -1,1 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Flask
+instance/
+.webassets-cache/
+
+# Model Files (optional - agar repo me nahi rakhne)
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Dataset Files (optional)
+*.csv
+*.xlsx
+*.xls
+
+# IDE
+.vscode/
+.idea/
+
+# Mac
 .DS_Store
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+.env.local
+
+# Build Files
+build/
+dist/
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Node (agar frontend build use hua ho)
+node_modules/
+
+# Render
+.render/
+
+# Temporary Files
+*.tmp
+*.temp
