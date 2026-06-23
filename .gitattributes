@@ -1,6 +1,10 @@
-# Ignore frontend from language stats
-src/** linguist-vendored
-public/** linguist-vendored
+# Hide everything from language stats
+*.ts linguist-vendored
+*.tsx linguist-vendored
+*.js linguist-vendored
+*.jsx linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
 
-# Count Python normally
+# Count Python
 *.py linguist-detectable=true
