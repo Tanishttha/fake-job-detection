@@ -5,3 +5,5 @@ static/*.ts linguist-vendored
 static/*.tsx linguist-vendored
 static/*.css linguist-vendored
 static/** linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
