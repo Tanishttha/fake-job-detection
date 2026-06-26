@@ -148,8 +148,8 @@ FRESHER VACANCY AVAILABLE
  DRA/NON DRA
  
 Regards
-*HR -Kanishka 
-*Contact - 8448568436
+HR -Kanishka 
+Contact - 8448568436
 ```
 <h3>Output</h3>
 
