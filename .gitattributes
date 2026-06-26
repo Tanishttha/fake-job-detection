@@ -7,3 +7,7 @@ static/*.json linguist-vendored
 static/*.css linguist-vendored
 *.html linguist-vendored
 *.css linguist-vendored
+static/src/components/ui/** linguist-vendored
+static/src/hooks/use-mobile.tsx linguist-vendored
+static/src/hooks/use-toast.ts linguist-vendored
+static/src/lib/** linguist-vendored
