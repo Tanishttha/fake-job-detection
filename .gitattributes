@@ -1,10 +1,19 @@
-static/src/** linguist-vendored
-static/public/** linguist-vendored
-static/*.json linguist-vendored
-
-*.js linguist-vendored
-*.jsx linguist-vendored
-static/*.css linguist-vendored
+# HTML/CSS
 *.html linguist-vendored
 *.css linguist-vendored
+
+# JS
+*.js linguist-vendored
+*.jsx linguist-vendored
+
+# Vite / boilerplate
+static/src/main.tsx linguist-vendored
+static/src/App.tsx linguist-vendored
+static/src/vite-env.d.ts linguist-vendored
+
+# shadcn/ui components
 static/src/components/ui/** linguist-vendored
+
+# utility hooks
+static/src/hooks/use-mobile.tsx linguist-vendored
+static/src/hooks/use-toast.ts linguist-vendored
